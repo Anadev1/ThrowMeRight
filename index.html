@@ -16,9 +16,29 @@
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a29188a2f6.js"></script>
+    <script src="./js/spa.js"></script>
 </head>
 
 <body>
+    <nav class="nav">
+        <ul>
+            <li><a href="#"><i class="fas fa-map"></i></a></li>
+            <li>
+                <div class="home-btn"><a href="#"><i class="fas fa-home"></i></a></div>
+            </li>
+            <li class="moreBtn"><a href="#"><i class="fas fa-ellipsis-h"></i></a></li>
+        </ul>
+        <div class="nav-more">
+            <ol>
+                <li>LOGO</li>
+                <li>
+                    <a<i class="fas fa-cogs"></i>Setting
+                </li>
+                <li><i class="fas fa-question"></i>Help</li>
+                <li><i class="fas fa-address-book"></i>Contact</li>
+            </ol>
+        </div>
+    </nav>
     <!--[if lt IE 7]>
                <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
           <![endif]-->
@@ -33,7 +53,7 @@
         <div class="popularitems_container">
             <p>Popular items</p>
             <div class="popularitems">
-                <button>Milk rton</button>
+                <button>Milk carton</button>
                 <button>Pizza box</button>
                 <button>Batteries</button>
                 <button>Diaper</button>
@@ -57,6 +77,9 @@
 
 
     <section id="search" class="page">
+        <div class="searchbar_container">
+            <input type="text" placeholder=" Search for trash...">
+        </div>
     </section>
 
     <section id="category" class="page"></section>
