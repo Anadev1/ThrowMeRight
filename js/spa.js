@@ -16,7 +16,7 @@ function showPage(pageId) {
 }
 
 // sets active tabbar/ menu item
-function setActiveTab(pageId) {
+/*function setActiveTab(pageId) {
      let pages = document.querySelectorAll(".tabbar a");
      for (let page of pages) {
           if (`#${pageId}` === page.getAttribute("href")) {
@@ -25,7 +25,7 @@ function setActiveTab(pageId) {
                page.classList.remove("active");
           }
      }
-}
+}*/
 
 // navigate to a new view/page by changing href
 function navigateTo(pageId) {
